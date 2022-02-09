@@ -1,0 +1,34 @@
+{
+  "name": "@oracle-cx-commerce/alstraproject",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Based on v3.0.0 of @oracle-cx-commerce/core-commerce-reference-store",
+  "scripts": {
+    "esbuild": "node .occ/build.js"
+  },
+  "dependencies": {
+    "@oracle-cx-commerce/actions": "3.0.0",
+    "@oracle-cx-commerce/endpoints": "3.0.0",
+    "@oracle-cx-commerce/oce-endpoints": "3.0.0",
+    "@oracle-cx-commerce/occ-metadata": "3.0.0",
+    "@oracle-cx-commerce/react-app": "3.0.0",
+    "@oracle-cx-commerce/react-widgets": "3.0.0",
+    "@oracle-cx-commerce/subscribers": "3.0.0",
+    "@oracle-cx-commerce/commerce-utils": "3.0.0"
+  },
+  "devDependencies": {
+    "@oracle-cx-commerce/rollup-config": "3.0.0"
+  },
+  "occ": {
+    "namespace": "occ.react",
+    "plugins": {
+      "actions": "src/plugins/actions",
+      "components": "src/plugins/components",
+      "endpoints": "src/plugins/endpoints",
+      "subscribers": "src/plugins/subscribers"
+    },
+    "locales": [
+      "en"
+    ]
+  }
+}

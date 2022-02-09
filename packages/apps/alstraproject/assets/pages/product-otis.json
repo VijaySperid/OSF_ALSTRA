@@ -1,0 +1,57 @@
+{
+  "layout": [
+    {
+      "displayName": "Adaptive Region",
+      "width": 12,
+      "resources": {
+        "en": {
+          "displayName": "Adaptive Region"
+        }
+      },
+      "slot": "re2100626",
+      "type": "header",
+      "structure": "slot"
+    },
+    {
+      "components": [
+        "product-breadcrumbs",
+        "product-details-container",
+        "product-recommendations-carousel",
+        "back-to-top-link"
+      ],
+      "width": 12,
+      "type": "main"
+    },
+    {
+      "components": [
+        "jsut",
+        "footer"
+      ],
+      "width": 12,
+      "type": "footer"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Product Otis"
+      }
+    },
+    "productTypes": [
+      "Alstra",
+      "Otis"
+    ],
+    "sites": [
+      "a7892050c1dev-store.occa.ocs.oraclecloud.com/otis"
+    ]
+  },
+  "defaultPage": false,
+  "address": "product",
+  "title": "Product Otis",
+  "shortName": "product",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "product"
+    }
+  }
+}
